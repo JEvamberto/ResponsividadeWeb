@@ -1,0 +1,26 @@
+@media (max-width: 375px){
+
+body{
+
+       
+
+
+
+
+}
+
+#teste{
+    background-image: linear-gradient(rgb(255, 82, 191),rgb(154, 82, 255));
+    widows: 400px;
+    height: 500px;
+    border-radius: 0px 0px 0px 0px;/*Esquerda-S Direita-Superior Direita-Baixo Esquerda-Baixo*/
+    margin-left: 300px;
+        -webkit-transform: skew(-16deg) translateX(-70px);
+            -ms-transform: skew(-16deg) translateX(-70px);
+                transform: skew(-16deg) translateX(-70px);
+        
+      
+
+}
+
+}
