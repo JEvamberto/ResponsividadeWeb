@@ -2,24 +2,31 @@
 
 body{
 
-       
-
 
 
 
 }
 
 #teste{
-    background-image: linear-gradient(rgb(255, 82, 191),rgb(154, 82, 255));
-    widows: 400px;
+  position: relative;
+    overflow:hidden;
+    width: 300px;
     height: 500px;
-    border-radius: 0px 0px 0px 0px;/*Esquerda-S Direita-Superior Direita-Baixo Esquerda-Baixo*/
-    margin-left: 300px;
-        -webkit-transform: skew(-16deg) translateX(-70px);
-            -ms-transform: skew(-16deg) translateX(-70px);
-                transform: skew(-16deg) translateX(-70px);
-        
-      
+    
+    float: right;
+    top:-100px;
+  
+}
+
+#teste2{
+  background-image: linear-gradient(rgb(255, 82, 191),rgb(154, 82, 255));
+  width: 300px;
+  height: 400px;
+  border-radius: 100px 0px 0px 0px;/*Esquerda-S Direita-Superior Direita-Baixo Esquerda-Baixo*/
+  position: absolute;
+  top: 10px;
+  left:190px; 
+  transform: skewX(30deg); 
 
 }
 
