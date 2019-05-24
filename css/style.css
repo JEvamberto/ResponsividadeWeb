@@ -148,7 +148,82 @@ body{
 footer{
 
     background-color:#00252e;
+    position: relative;
+    height: 900px;
+    color:white;
+}
 
+footer figure{
+    
+    text-align: center;
+
+}
+
+footer img{
+    margin-top:80px;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 60px;
+}
+
+.CopyERedeSocial{
+
+    position: absolute;
+    top:800px;
+    
+
+}
+
+.navegacao nav ul li{
+
+    text-decoration: none;
+    margin-top:20px;
+  
+    list-style-type: none;
+    font-size: 18px;
+    margin-left: -12px;
+}
+.inscricao{
+
+    text-align: center;
+
+}
+
+.inscricao h2{
+    margin-top: 70px;
+    text-transform: uppercase;
+}
+
+.inscricao p {
+
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+   
+
+.inscricao input{
+
+    width: 100%;
+    height:40px;
+    border-radius: 1px;
+    margin-bottom: 16px;
+    border: none;
+
+}
+.inscricao button{
+
+    color: white;
+    background-color: #fe52c0;
+    padding: 11px 29px;
+    font-size: 17px;
+    text-decoration: none ;
+    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    border: none;
+    width: 100%;
+    height:40px;
 }
 
 }
