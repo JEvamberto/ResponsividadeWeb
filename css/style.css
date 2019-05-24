@@ -1,3 +1,17 @@
+@media (min-width: 1440px){
+
+.container{
+
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+}
+
+
+
+
 @media (max-width: 375px){
 
 body{
@@ -169,19 +183,44 @@ footer img{
 .CopyERedeSocial{
 
     position: absolute;
-    top:800px;
-    
+    top:750px;
+    text-align: center;
 
 }
 
+.CopyERedeSocial section{
+    text-align: center;
+    margin-left: 55px;
+
+}
+.CopyERedeSocial img{
+
+    width: 32px;
+    height: 28px;
+    margin-right: 20px;
+    margin-bottom: 9px;
+    margin-top: 60px;
+}
+
+.CopyERedeSocial p{
+
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 12px;
+    margin-left: 25px;
+}
 .navegacao nav ul li{
 
     text-decoration: none;
-    margin-top:20px;
-  
+    margin-top:20px; 
     list-style-type: none;
     font-size: 18px;
     margin-left: -12px;
+}
+.navegacao nav ul li a {
+    
+    text-decoration: none;
+    color: white;
 }
 .inscricao{
 
@@ -225,5 +264,7 @@ footer img{
     width: 100%;
     height:40px;
 }
+
+
 
 }
