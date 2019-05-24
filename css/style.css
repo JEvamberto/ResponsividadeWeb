@@ -53,6 +53,7 @@ body{
     margin-top: 50px;
     font-size: 25px;   
     line-height: 40px;
+    color:#00252f;
 
 
 }
@@ -62,6 +63,7 @@ body{
     font-size: 15px;
     line-height: 25px;
     margin-bottom: 40px;
+    color:#858c94;
 
 }
 
@@ -90,13 +92,63 @@ body{
 
     text-align: center;
     margin-top: 120px;
+    font-size: 14px;
+    line-height: 23px;
+    color:#8a9197;
+}
+.vantagens #vantagensEmTexto h1{
+    margin-top:50px;
+    font-size: 17px; 
+    margin-bottom: 35px; 
+    color: #052d35; 
+  
+}
+
+.destaqueBotao{
+    margin-top: 90px;
+    margin-bottom: 80px;
+    width: 330px;
+    height: 160px;
+    background-color: white;
+    border-radius: 1px;
+    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+}
+
+.destaqueBotao h1{
+
+    padding-top:30px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #052d35; 
+}
+
+.destaqueBotao p{
+
+    font-size: 12px;
+    margin-bottom:25px;
+    color:#8a9197;
+}
+
+.destaqueBotao a{
+    
+    color: white;
+    background-color: #fe52c0;
+    padding: 11px 29px;
+    font-size: 12px;
+    text-decoration: none ;
+    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    
     
 
 }
-.vantagens #vantagensEmTexto h1{
 
-    font-size: 20px;   
-  
+footer{
+
+    background-color:#00252e;
+
 }
 
 }
