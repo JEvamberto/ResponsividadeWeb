@@ -1,545 +1,565 @@
-@media (max-width: 1440px){
-body{
-    background-color:#f6f9fe;
-}
-.container{
-
-    width: 1150px;
-    margin: 0 auto;
-
-    
-}
-.cabecalho {
-    position: relative;
-}
-.cabecalho img{
-
-    width: 160px;
-    height: 30px;
-    margin-left: 30px;
-    margin-top:50px;
-
-
-}
-
-.botao a {
-    margin-right: 10px;
-    position: absolute;
-    top:50px;
-    right:70px ;
-    color: #6a5b96;
-    background-color: white;
-    padding: 10px 50px;
-    font-size: 13px;
-    text-decoration: none ;
-    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3);
-
-}
-
-.image img{
-
-    margin-top: 70px;
-    width: 630px;
-    height: 470px;
-    
-    
-}
-.image figure{
-
-    text-align: center;
-
-}
-
-.inicie{
-
-    text-align: center;
-}
-.inicie h1{
-    
-    margin-top: 50px;
-    font-size: 25px;   
-    line-height: 40px;
-    color:#00252f;
-
-
-}
-
-.inicie p{
-   
-    font-size: 15px;
-    line-height: 25px;
-    margin-bottom: 40px;
-    color:#858c94;
-    margin-left: 310px;
-    
-   
-    width: 46%;
-
-}
-
-.inicie a{
-    color: white;
-    background-color: #fe52c0;
-    padding: 12px 33px;
-    font-size: 13px;
-    text-decoration: none ;
-    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3);
-    border-radius: 2px;
- 
-
-
-}
-
-.lado{
-    display: inline-block;
-    width: 450px;
-    
-}
-
-.vantagens img{
-
-    margin-top:100px;
-    width: 400px;
-    height: 330px;
-    margin-left: 40px;
-
-}
-.vantagens #vantagensEmTexto{
-
-    text-align: left;
-    margin-top: 120px;
-    font-size: 14px;
-    line-height: 23px;
-    color:#8a9197;
-    margin-left: 100px;
-}
-.vantagens #vantagensEmTexto h1{
-    margin-top:20px;
-    font-size: 17px; 
-    margin-bottom: 10px; 
-    color: #052d35; 
-  
-}
-
-.destaqueBotao{
-    margin-top: 90px;
-    margin-bottom: 80px;
-    width: 560px;
-    height: 210px;
-    background-color: white;
-    border-radius: 1px;
-    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3);
-    text-align: center;
-
-}
-
-.destaqueBotao h1{
-
-    padding-top:50px;
-    font-size: 18px;
-    margin-bottom: 10px;
-    color: #052d35; 
-}
-
-.destaqueBotao p{
-
-    font-size: 14px;
-    margin-bottom:30px;
-    color:#8a9197;
-}
-
-.destaqueBotao a{
-    
-    color: white;
-    background-color: #fe52c0;
-    padding: 11px 40px;
-    font-size: 12px;
-    text-decoration: none ;
-    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3);
-    border-radius: 2px;
-    
-    
-
-}
-
-footer{
-    color: white;
-    background-color: #00252e;
-    width: 100%;
-    position: relative;
-    height: 500px;
-}
-
-
-
-.nav1{
-    display: inline-block;
-    width: 200px;
-}
-
-
-footer img{
-    margin-top:80px;
-    width: 210px;
-    height: 30px;
-    margin-bottom: 10px;
-}
-
-.CopyERedeSocial{
-    position: absolute;
-    
-    
-}
-
-
-.CopyERedeSocial section{
-    
-    margin-left: 55px;
-
-}
-.CopyERedeSocial img{
-
-    width: 32px;
-    height: 28px;
-    margin-right: 20px;
-    margin-bottom: 9px;
-    margin-top: 20px;
-}
-
-.CopyERedeSocial p{
-
-    
-    margin-bottom: 30px;
-    font-size: 12px;
-    margin-left: 25px;
-}
-.navegacao nav ul li{
-
-    text-decoration: none;
-    margin-top:20px; 
-    list-style-type: none;
-    font-size: 18px;
-   
-}
-
-.navegacao{
-
-    position: absolute;
-    left: 430px;
-
-}
-.navegacao nav ul li a {
-    
-    text-decoration: none;
-    color: white;
-}
-.inscricao{
-
-    text-align: left;
-    width: 300px;
-    position: absolute;
-    left: 900px;
-    top: 85px;
-
-}
-
-.inscricao h2{
-    margin-top: 70px;
-    text-transform: uppercase;
-}
-
-.inscricao p {
-
-    font-size: 12px;
-    line-height: 20px;
-    margin-bottom: 15px;
-}
-
-   
-
-.inscricao input{
-
-    width: 100%;
-    height:40px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: none;
-
-}
-.inscricao button{
-
-    color: white;
-    background-color: #fe52c0;
-    padding: 11px 20px;
-    font-size: 17px;
-    text-decoration: none ;
-    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3);
-    border-radius: 2px;
-    border: none;
-    width: 200px;
-    height:40px;
-    margin-left:100px ;
-}
-
-
-}
-
-
-
-
 @media (max-width: 375px){
 
-body{
-    background-color:#f6f9fe;
-}
-
-
-.container{
-
-    width: 310px;
-    margin: 0 auto;
-
-}
-.cabecalho {
-    position: relative;
-}
-.cabecalho img{
-
-    width: 120px;
-    height: 20px;
-    margin-left: -40px;
-
-}
-
-.botao a {
-    margin-right: 10px;
-    position: absolute;
-    top:0px;
-    right:0px ;
-    color: #6a5b96;
-    background-color: white;
-    padding: 8px 15px;
-    font-size: 13px;
-    text-decoration: none ;
-    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3);
-
-}
-
-.image img{
-
-    margin-top: 70px;
-    width: 300px;
-    height: 250px;
-    margin-left: -40px;
-}
-
-.inicie{
-
-    text-align: center;
-}
-.inicie h1{
-    
-    margin-top: 50px;
-    font-size: 25px;   
-    line-height: 40px;
-    color:#00252f;
-
-
-}
-
-.inicie p{
-   
-    font-size: 15px;
-    line-height: 25px;
-    margin-bottom: 40px;
-    color:#858c94;
-
-}
-
-.inicie a{
-    color: white;
-    background-color: #fe52c0;
-    padding: 12px 33px;
-    font-size: 13px;
-    text-decoration: none ;
-    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3);
-    border-radius: 2px;
- 
-
-
-}
-
-.vantagens img{
-
-    margin-top:100px;
-    width: 300px;
-    height: 230px;
-    margin-left: -40px;
-
-}
-.vantagens #vantagensEmTexto{
-
-    text-align: center;
-    margin-top: 120px;
-    font-size: 14px;
-    line-height: 23px;
-    color:#8a9197;
-}
-.vantagens #vantagensEmTexto h1{
-    margin-top:50px;
-    font-size: 17px; 
-    margin-bottom: 35px; 
-    color: #052d35; 
-  
-}
-
-.destaqueBotao{
-    margin-top: 90px;
-    margin-bottom: 80px;
-    width: 330px;
-    height: 160px;
-    background-color: white;
-    border-radius: 1px;
-    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.2);
-    text-align: center;
-
-}
-
-.destaqueBotao h1{
-
-    padding-top:30px;
-    font-size: 15px;
-    margin-bottom: 10px;
-    color: #052d35; 
-}
-
-.destaqueBotao p{
-
-    font-size: 12px;
-    margin-bottom:25px;
-    color:#8a9197;
-}
-
-.destaqueBotao a{
-    
-    color: white;
-    background-color: #fe52c0;
-    padding: 11px 29px;
-    font-size: 12px;
-    text-decoration: none ;
-    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3);
-    border-radius: 2px;
+    body{
+        background-color:#f6f9fe;
+     
+    }
     
     
-
-}
-
-footer{
-
-    background-color:#00252e;
-    position: relative;
-    height: 900px;
-    color:white;
-}
-
-footer figure{
+    .container{
     
-    text-align: center;
-
-}
-
-footer img{
-    margin-top:80px;
-    width: 200px;
-    height: 30px;
-    margin-bottom: 60px;
-}
-
-.CopyERedeSocial{
-
-    position: absolute;
-    top:750px;
-    text-align: center;
-
-}
-
-.CopyERedeSocial section{
-    text-align: center;
-    margin-left: 55px;
-
-}
-.CopyERedeSocial img{
-
-    width: 32px;
-    height: 28px;
-    margin-right: 20px;
-    margin-bottom: 9px;
-    margin-top: 60px;
-}
-
-.CopyERedeSocial p{
-
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 12px;
-    margin-left: 25px;
-}
-.navegacao nav ul li{
-
-    text-decoration: none;
-    margin-top:20px; 
-    list-style-type: none;
-    font-size: 18px;
-    margin-left: -12px;
-}
-.navegacao nav ul li a {
+        width: 310px;
+        margin: 0 auto;
     
-    text-decoration: none;
-    color: white;
-}
-.inscricao{
+    }
+    .cabecalho {
+        position: relative;
+    }
+    .cabecalho img{
+    
+        width: 120px;
+        height: 20px;
+        margin-top:30px;
+        margin-left: 5px;
+    }
+    
+    .botao a {
+        margin-right: 10px;
+        position: absolute;
+        top:25px;
+        right:4px ;
+        color: #6a5b96;
+        background-color: white;
+        padding: 8px 15px;
+        font-size: 13px;
+        text-decoration: none ;
+        box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+    
+    }
+    .image{
+        text-align: center;
+    }
+    
+    .image img{
+    
+        margin-top: 70px;
+        width: 90%;
+        height: 40%;
+      
+    }
+    
+    .inicie{
+    
+        text-align: center;
+    }
+    .inicie h1{
+        
+        margin-top: 50px;
+        font-size: 25px;   
+        line-height: 40px;
+        font-weight: bold;
+        color:#00252f;
+    
+    
+    }
+    
+    .inicie p{
+       
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 40px;
+        color:#858c94;
+    
+    }
+    
+    .inicie a{
+        color: white;
+        background-color: #fe52c0;
+        padding: 12px 33px;
+        font-size: 13px;
+        text-decoration: none ;
+        box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+        border-radius: 2px;
+     
+    
+    
+    }
+    
+    .vantagens img{
+    
+        margin-top:100px;
+        width: 300px;
+        height: 230px;
+    
+    
+    }
+    .vantagens #vantagensEmTexto{
+    
+        text-align: center;
+        margin-top: 120px;
+        font-size: 14px;
+        line-height: 23px;
+        color:#8a9197;
+    }
+    .vantagens #vantagensEmTexto h1{
+        margin-top:50px;
+        font-size: 17px; 
+        margin-bottom: 35px; 
+        color: #052d35; 
+      
+    }
+    
+    .destaqueBotao{
+        margin-top: 90px;
+        margin-bottom: 80px;
+        width: 330px;
+        height: 160px;
+        background-color: white;
+        border-radius: 1px;
+        box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    
+    }
+    
+    .destaqueBotao h1{
+    
+        padding-top:30px;
+        font-size: 15px;
+        margin-bottom: 10px;
+        color: #052d35; 
+    }
+    
+    .destaqueBotao p{
+    
+        font-size: 12px;
+        margin-bottom:25px;
+        color:#8a9197;
+    }
+    
+    .destaqueBotao a{
+        
+        color: white;
+        background-color: #fe52c0;
+        padding: 11px 29px;
+        font-size: 12px;
+        text-decoration: none ;
+        box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+        border-radius: 2px;
+        
+        
+    
+    }
+    
+    footer{
+    
+        background-color:#00252e;
+        position: relative;
+        height: 900px;
+        color:white;
+    }
+    
+    footer figure{
+        
+        text-align: center;
+    
+    }
+    
+    footer img{
+        margin-top:80px;
+        width: 200px;
+        height: 30px;
+        margin-bottom: 60px;
+    }
+    
+    .CopyERedeSocial{
+    
+        position: absolute;
+        top:730px;
+        text-align: center;
+    
+    }
+    
+    .CopyERedeSocial section{
+        text-align: center;
+        margin-left: 55px;
+    
+    }
+    .CopyERedeSocial img{
+    
+        width: 32px;
+        height: 28px;
+        margin-right: 20px;
+        margin-bottom: 9px;
+        margin-top: 60px;
+    }
+    
+    .CopyERedeSocial p{
+        margin-top:20px;
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 12px;
+        margin-left: 25px;
+    }
+    .navegacao{
 
-    text-align: center;
+        margin-left: 40px;
 
-}
+    }
+    .navegacao nav ul li{
+    
+        text-decoration: none;
+        margin-top:20px; 
+        list-style-type: none;
+        font-size: 18px;
+       
+    }
+    .navegacao nav ul li a {
+        
+        text-decoration: none;
+        color: white;
+    }
+    .inscricao{
+    
+        text-align: center;
+    
+    }
+    
+    .inscricao h2{
+        margin-top: 70px;
+        text-transform: uppercase;
+    }
+    
+    .inscricao p {
+    
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+    
+       
+    
+    .inscricao input{
+    
+        width: 100%;
+        height:40px;
+        border-radius: 1px;
+        margin-bottom: 16px;
+        border: none;
+    
+    }
+    .inscricao button{
+    
+        color: white;
+        background-color: #fe52c0;
+        padding: 11px 29px;
+        font-size: 17px;
+        text-decoration: none ;
+        box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+        border-radius: 2px;
+        border: none;
+        width: 100%;
+        height:40px;
+    }
+    
+    
+    
+    }
 
-.inscricao h2{
-    margin-top: 70px;
-    text-transform: uppercase;
-}
 
-.inscricao p {
+@media (min-width: 400px){ 
+    
+    body{
+            background-color:#f6f9fe;
+        }
+        .container{
+        
+            width: 1150px;
+            margin: 0 auto;
+        
+            
+        }
+        .cabecalho {
+            position: relative;
+        }
+        .cabecalho img{
+        
+            width: 160px;
+            height: 30px;
+            margin-left: 30px;
+            margin-top:50px;
+        
+        
+        }
+        
+        .botao a {
+            margin-right: 10px;
+            position: absolute;
+            top:50px;
+            right:70px ;
+            color: #6a5b96;
+            background-color: white;
+            padding: 10px 50px;
+            font-size: 13px;
+            text-decoration: none ;
+            box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+        
+        }
+        
+        .image img{
+        
+            margin-top: 70px;
+            width: 630px;
+            height: 470px;
+            
+            
+        }
+        .image figure{
+        
+            text-align: center;
+        
+        }
+        
+        .inicie{
+        
+            text-align: center;
+        }
+        .inicie h1{
+            
+            margin-top: 50px;
+            font-size: 25px;   
+            line-height: 40px;
+            color:#00252f;
+        
+        
+        }
+        
+        .inicie p{
+           
+            font-size: 15px;
+            line-height: 25px;
+            margin-bottom: 40px;
+            color:#858c94;
+            margin-left: 310px;
+            
+           
+            width: 46%;
+        
+        }
+        
+        .inicie a{
+            color: white;
+            background-color: #fe52c0;
+            padding: 12px 33px;
+            font-size: 13px;
+            text-decoration: none ;
+            box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+            border-radius: 2px;
+         
+        
+        
+        }
+        
+        .lado{
+            display: inline-block;
+            width: 450px;
+            
+        }
+        
+        .vantagens img{
+        
+            margin-top:100px;
+            width: 400px;
+            height: 330px;
+            margin-left: 40px;
+        
+        }
+        .vantagens #vantagensEmTexto{
+        
+            text-align: left;
+            margin-top: 120px;
+            font-size: 14px;
+            line-height: 23px;
+            color:#8a9197;
+            margin-left: 100px;
+        }
+        .vantagens #vantagensEmTexto h1{
+            margin-top:20px;
+            font-size: 17px; 
+            margin-bottom: 10px; 
+            color: #052d35; 
+          
+        }
+        
+        .destaqueBotao{
+            margin-top: 90px;
+            margin-bottom: 80px;
+            width: 560px;
+            height: 210px;
+            background-color: white;
+            border-radius: 1px;
+            box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        
+        }
+        
+        .destaqueBotao h1{
+        
+            padding-top:50px;
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #052d35; 
+        }
+        
+        .destaqueBotao p{
+        
+            font-size: 14px;
+            margin-bottom:30px;
+            color:#8a9197;
+        }
+        
+        .destaqueBotao a{
+            
+            color: white;
+            background-color: #fe52c0;
+            padding: 11px 40px;
+            font-size: 12px;
+            text-decoration: none ;
+            box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+            border-radius: 2px;
+            
+            
+        
+        }
+        
+        footer{
+            color: white;
+            background-color: #00252e;
+            width: 100%;
+            position: relative;
+            height: 500px;
+        }
+        
+        
+        
+        .nav1{
+            display: inline-block;
+            width: 200px;
+        }
+        
+        
+        footer figure img{
+            margin-top:80px;
+            width: 210px;
+            height: 30px;
+            margin-bottom: 10px;
+            margin-left:30px;
+        }
+        
+        .CopyERedeSocial{
+            position: absolute;
+            
+            
+        }
+        
+        
+        .CopyERedeSocial section{
+            
+            margin-left: 55px;
+        
+        }
+        .CopyERedeSocial img{
+        
+            width: 32px;
+            height: 28px;
+            margin-right: 20px;
+            margin-bottom: 9px;
+            margin-top: 20px;
+        }
+        
+        .CopyERedeSocial p{
+        
+            margin-top:20px;
+            margin-bottom: 30px;
+            font-size: 12px;
+            margin-left: 25px;
+        }
+        .navegacao nav ul li{
+        
+            text-decoration: none;
+            margin-top:20px; 
+            list-style-type: none;
+            font-size: 18px;
+           
+        }
+        
+        .navegacao{
+        
+            position: absolute;
+            left: 430px;
+        
+        }
+        .navegacao nav ul li a {
+            
+            text-decoration: none;
+            color: white;
+        }
+        .inscricao{
+        
+            text-align: left;
+            width: 300px;
+            position: absolute;
+            left: 900px;
+            top: 85px;
+        
+        }
+        
+        .inscricao h2{
+            margin-top: 70px;
+            text-transform: uppercase;
+        }
+        
+        .inscricao p {
+        
+            font-size: 12px;
+            line-height: 20px;
+            margin-bottom: 15px;
+        }
+        
+           
+        
+        .inscricao input{
+        
+            width: 100%;
+            height:40px;
+            border-radius: 4px;
+            margin-bottom: 16px;
+            border: none;
+        
+        }
+        .inscricao button{
+        
+            color: white;
+            background-color: #fe52c0;
+            padding: 11px 20px;
+            font-size: 17px;
+            text-decoration: none ;
+            box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+            border-radius: 2px;
+            border: none;
+            width: 200px;
+            height:40px;
+            margin-left:100px ;
+        }
+        
+        
+        }
 
-    font-size: 12px;
-    line-height: 20px;
-    margin-bottom: 15px;
-}
-
-   
-
-.inscricao input{
-
-    width: 100%;
-    height:40px;
-    border-radius: 1px;
-    margin-bottom: 16px;
-    border: none;
-
-}
-.inscricao button{
-
-    color: white;
-    background-color: #fe52c0;
-    padding: 11px 29px;
-    font-size: 17px;
-    text-decoration: none ;
-    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3);
-    border-radius: 2px;
-    border: none;
-    width: 100%;
-    height:40px;
-}
 
 
 
-}
+
+
+
+
+
+
