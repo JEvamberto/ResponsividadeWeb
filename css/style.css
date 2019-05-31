@@ -4,7 +4,66 @@
         background-color:#f6f9fe;
         font-family: 'Poppins', sans-serif;
         font-weight: 400px;
+        z-index: 9999 ;
+        height: 200px;
+        
     }
+
+#teste{
+    position: relative;
+      overflow:hidden;
+      width: 400px;
+      height: 500px;
+      
+      float: right;
+      top:-100px;
+      z-index: -1;
+    
+  }
+  
+  #teste2{
+    background-image: linear-gradient(rgb(255, 82, 191),rgb(154, 82, 255));
+    width: 400px;
+    height: 450px;
+    border-radius: 100px 0px 0px 0px;/*Esquerda-S Direita-Superior Direita-Baixo Esquerda-Baixo*/
+    position: absolute;
+    top: 10px;
+    left:290px; 
+    transform: skewX(30deg); 
+    z-index: -1;
+  
+  }
+  #teste3{
+    position: relative;
+      overflow:hidden;
+      width: 400px;
+      height: 600px;
+      
+      float: right;
+        top: -400px;
+      z-index: -2;
+    rotate:30deg;
+  }
+  
+  #teste4{
+    background-color: white;
+    width: 370px;
+    height: 450px;
+    transform: rotate(-25deg);
+    position:absolute;
+    top: 70px;
+    left: 40px;
+    border-radius: 40px;
+
+    /*transform: skewX(30deg); 
+    z-index: -2;
+    border-radius: 50px;
+  */
+  
+  }
+
+
+
     
     
     .container{
@@ -20,8 +79,9 @@
     
         width: 120px;
         height: 20px;
-        margin-top:30px;
+        margin-top: 30px;
         margin-left: 5px;
+        
     }
     
     .botao a {
@@ -43,15 +103,19 @@
     
     .image img{
     
-        margin-top: 70px;
+        /*margin-top: 70px;*/
         width: 90%;
         height: 40%;
+        position: relative;
+        top:-1050px;
       
     }
     
     .inicie{
     
         text-align: center;
+        position: relative;
+        top: -1055px;
     }
     .inicie h1{
         
@@ -85,7 +149,12 @@
     
     
     }
-    
+    .vantagens{
+
+        position: relative;
+        top:-930px;
+
+    }
     .vantagens img{
     
         margin-top:100px;
@@ -119,8 +188,13 @@
         border-radius: 1px;
         box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.2);
         text-align: center;
+
+        position: relative;
+        top:-920px;
     
     }
+
+
     
     .destaqueBotao h1{
     
@@ -157,6 +231,8 @@
         position: relative;
         height: 900px;
         color:white;
+        position: relative;
+        top:-920px;
     }
     
     footer figure{
@@ -228,6 +304,8 @@
     .inscricao h2{
         margin-top: 70px;
         text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: 20px;
     }
     
     .inscricao p {
@@ -268,10 +346,73 @@
 
 
 @media (min-width: 400px){ 
+ 
     
     body{
             background-color:#f6f9fe;
+            z-index: 9999 ;
+            position: relative;
+            
         }
+
+
+
+
+        #teste{
+            position: relative;
+              overflow:hidden;
+              width: 750px;
+              height: 1000px;
+              
+              float: right;
+              top:-100px;
+              z-index: -1;
+            
+          }
+          
+          #teste2{
+            background-image: linear-gradient(rgb(255, 82, 191),rgb(154, 82, 255));
+            width: 750px;
+            height: 1000px;
+            border-radius: 90px 0px 0px 100px;/*Esquerda-S Direita-Superior Direita-Baixo Esquerda-Baixo*/
+            position: absolute;
+            top: 10px;
+            left:290px; 
+            transform: skewX(30deg); 
+            z-index: -1;
+          
+          }
+          #teste3{
+            position: relative;
+              overflow:hidden;
+              width: 800px;
+              height: 1200px;
+              
+              float: right;
+                top: -1100px;
+                right: 350px;
+              z-index: -2;
+              transform: rotate(-120deg);
+            
+          }
+          
+          #teste4{
+            background-color: white;
+            width: 700px;
+            height: 1200px;
+           /* transform: rotate(-25deg);*/
+            position:absolute;
+            top: 70px;
+            left: 40px;
+            border-radius: 40px;
+            z-index: -2;
+            /*transform: skewX(30deg); 
+           
+            border-radius: 50px;
+            */
+          
+          } 
+        
         .container{
         
             width: 1150px;
@@ -311,6 +452,8 @@
             margin-top: 70px;
             width: 630px;
             height: 470px;
+            position: absolute;
+            top:70px;
             
             
         }
@@ -323,6 +466,8 @@
         .inicie{
         
             text-align: center;
+            position: absolute;
+            top:600px;
         }
         .inicie h1{
             
@@ -363,15 +508,18 @@
         .lado{
             display: inline-block;
             width: 450px;
-            
+            text-align: center;
+            position: absolute;
+            top: 1180px;
         }
         
         .vantagens img{
         
             margin-top:100px;
-            width: 400px;
-            height: 330px;
-            margin-left: 40px;
+            width: 420px;
+            height: 380px;
+            margin-left: 100px;
+          
         
         }
         .vantagens #vantagensEmTexto{
@@ -381,7 +529,7 @@
             font-size: 14px;
             line-height: 23px;
             color:#8a9197;
-            margin-left: 100px;
+            margin-left: 590px;
         }
         .vantagens #vantagensEmTexto h1{
             margin-top:20px;
@@ -400,6 +548,9 @@
             border-radius: 1px;
             box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3);
             text-align: center;
+            position: absolute;
+            top:1750px;
+            left: 330px;
         
         }
         
@@ -437,6 +588,7 @@
             background-color: #00252e;
             width: 100%;
             position: relative;
+            top:2200px;
             height: 500px;
         }
         
@@ -517,6 +669,8 @@
         .inscricao h2{
             margin-top: 70px;
             text-transform: uppercase;
+            font-weight: bold;
+            margin-bottom: 20px;
         }
         
         .inscricao p {
@@ -524,6 +678,7 @@
             font-size: 12px;
             line-height: 20px;
             margin-bottom: 15px;
+            
         }
         
            
@@ -535,6 +690,7 @@
             border-radius: 4px;
             margin-bottom: 16px;
             border: none;
+        
         
         }
         .inscricao button{
@@ -551,9 +707,8 @@
             height:40px;
             margin-left:100px ;
         }
-        
-        
-        }
+      
+}
 
 
 
