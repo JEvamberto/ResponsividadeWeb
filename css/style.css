@@ -699,13 +699,14 @@
             background-color: #fe52c0;
             padding: 11px 20px;
             font-size: 17px;
-            text-decoration: none ;
+           
             box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3);
             border-radius: 2px;
             border: none;
             width: 200px;
             height:40px;
             margin-left:100px ;
+            cursor: pointer;
         }
       
 }
