@@ -602,8 +602,8 @@
         
         footer figure img{
             margin-top:80px;
-            width: 210px;
-            height: 30px;
+            width: 100%;/*Aqui é o problema*/
+        
             margin-bottom: 10px;
             margin-left:30px;
         }
