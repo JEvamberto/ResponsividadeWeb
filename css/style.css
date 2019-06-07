@@ -1,4 +1,4 @@
-@media (max-width: 375px){
+@media (max-width: 779px)  {
 
     body{
         background-color:#f6f9fe;
@@ -9,19 +9,19 @@
         
     }
 
-#teste{
+#triangulo{
     position: relative;
       overflow:hidden;
       width: 400px;
       height: 500px;
       
       float: right;
-      top:-100px;
+      bottom:100px;
       z-index: -1;
     
   }
   
-  #teste2{
+  #triangulo2{
     background-image: linear-gradient(rgb(255, 82, 191),rgb(154, 82, 255));
     width: 400px;
     height: 450px;
@@ -33,19 +33,19 @@
     z-index: -1;
   
   }
-  #teste3{
+  #retangulo{
     position: relative;
       overflow:hidden;
       width: 400px;
       height: 600px;
       
       float: right;
-        top: -400px;
+        bottom: 400px;
       z-index: -2;
     rotate:30deg;
   }
   
-  #teste4{
+  #retangulo2{
     background-color: white;
     width: 370px;
     height: 450px;
@@ -104,8 +104,8 @@
     .image img{
     
         /*margin-top: 70px;*/
-        width: 90%;
-        height: 40%;
+        width: 100%;
+      
         position: relative;
         top:-1050px;
       
@@ -115,7 +115,7 @@
     
         text-align: center;
         position: relative;
-        top: -1055px;
+        bottom: 1079px;
     }
     .inicie h1{
         
@@ -152,7 +152,7 @@
     .vantagens{
 
         position: relative;
-        top:-930px;
+        bottom:930px;
 
     }
     .vantagens img{
@@ -190,7 +190,7 @@
         text-align: center;
 
         position: relative;
-        top:-920px;
+        bottom:920px;
     
     }
 
@@ -232,7 +232,7 @@
         height: 900px;
         color:white;
         position: relative;
-        top:-920px;
+        bottom:920px;
     }
     
     footer figure{
@@ -345,7 +345,7 @@
     }
 
 
-@media (min-width: 400px){ 
+@media (min-width: 780px){ 
  
     
     body{
@@ -358,7 +358,7 @@
 
 
 
-        #teste{
+        #triangulo{
             position: relative;
               overflow:hidden;
               width: 750px;
@@ -370,7 +370,7 @@
             
           }
           
-          #teste2{
+          #triangulo2{
             background-image: linear-gradient(rgb(255, 82, 191),rgb(154, 82, 255));
             width: 750px;
             height: 1000px;
@@ -382,7 +382,7 @@
             z-index: -1;
           
           }
-          #teste3{
+          #retangulo{
             position: relative;
               overflow:hidden;
               width: 800px;
@@ -396,7 +396,7 @@
             
           }
           
-          #teste4{
+          #retangulo2{
             background-color: white;
             width: 700px;
             height: 1200px;
