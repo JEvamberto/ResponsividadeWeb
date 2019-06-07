@@ -610,6 +610,8 @@
         
         .CopyERedeSocial{
             position: absolute;
+            width: 100%;
+
             
             
         }
@@ -622,8 +624,8 @@
         }
         .CopyERedeSocial img{
         
-            width: 32px;
-            height: 28px;
+            width: 3%;
+            height: 2%;
             margin-right: 20px;
             margin-bottom: 9px;
             margin-top: 20px;
@@ -641,7 +643,8 @@
             text-decoration: none;
             margin-top:20px; 
             list-style-type: none;
-            font-size: 18px;
+            font-size: 130%;
+            /*18*/
            
         }
         
@@ -649,6 +652,7 @@
         
             position: absolute;
             left: 430px;
+            width:100%;
         
         }
         .navegacao nav ul li a {
